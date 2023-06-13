@@ -4,8 +4,12 @@
   "description": "Chrome extension in React",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "tsc"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "react": "^17.0.1",
+    "typescript": "^5.1.3"
+  }
 }
